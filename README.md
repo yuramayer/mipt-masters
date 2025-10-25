@@ -9,3 +9,5 @@
 2. [Математика для машинного обучения](math-ml/)
 
 3. [Основы машинного обучения](ml-basics/)
+
+4. [Natural language processing](nlp/)
