@@ -1,0 +1,12 @@
+---
+- name: Установка и запуск веб-сервера
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: Установка Apache
+      apt:
+        name: apache2
+        state: present
+        update_cache: yes
+    - name: Запуск и включение Apache (WSL)
+      command: apache2ctl start
